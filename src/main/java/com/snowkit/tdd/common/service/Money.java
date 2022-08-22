@@ -19,7 +19,9 @@ public class Money {
         return new Franc(amount, "CHF");
     }
 
-    abstract public Money times(int multiplier);
+    public Money times(int multiplier) {
+        return new Money(amount * multiplier, currency);
+    }
 
     @Override
     public boolean equals(Object obj) {
