@@ -1,6 +1,6 @@
 package com.snowkit.tdd.common.service;
 
-public abstract class Money {
+public class Money {
 
     protected int amount;
 
